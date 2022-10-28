@@ -9,9 +9,13 @@
 Aplicação React que pode-ser adicionada múltiplas tarefas com um timer, ao selecionar um item da lista de tarefas criadas e o tempo vai direto para um cronômetro, quando o tempo for zerado a tarefa dará como realizada.
 
 ## Tecnologias Utilizadas
-* React: Biblioteca mais utilizada de JavaScript segundo pesquisas. Componentização (base do React). Conceito de DRY (Dont Repeat Yoursel), usado para criar componentes reaproveitáveis. Conceito de SRP (Single Responsability Principal), cada função (componentes) do código deve ter uma responsabilidade. Comunicação entre componentes com o props. Comunicação com estado interno com State. Diferença de class components e function components.
-* TypeScript: É uma biblioteca para tipar variáveis em JavaScript
-* ### Sass: 
+### React
+Biblioteca mais utilizada de JavaScript segundo pesquisas. Componentização (base do React). Conceito de DRY (Dont Repeat Yoursel), usado para criar componentes reaproveitáveis. Conceito de SRP (Single Responsability Principal), cada função (componentes) do código deve ter uma responsabilidade. Comunicação entre componentes com o props. Comunicação com estado interno com State. Diferença de class components e function components.
+
+* #### useState - O React é reativo, logo, a forma como ele renderiza os componentes também é reativa. O React só irá renderizar ou atualizar um componente quando avisarmos que algo mudou e fazemos isso usando o Hook `useState()`. O state é uma variável que adiciona um valor a ela, porém sempre que esse "estado da variável" muda, o componente que o tem, também muda. Muito utilizado em listas, por exemplo. O `useState` precisa receber uma variável com o `state` em si e uma função para alterar esse estado (comumemente usamos o `setState`), ao alterar o estado dessa função (setar um novo item) o React entende que o componente mudou e o atualiza. 
+### TypeScript
+É uma biblioteca para tipar variáveis em JavaScript
+### Sass
 É um pré-processador CSS que melhora e agiliza o CSS.
 
 Para instalar, abra o terminal no diretório do projeto, digite `npm install --save-dev sass` e pressionar Enter.
@@ -25,7 +29,7 @@ Para conferir se está instalado, verifique no arquivo `package.json` se terá u
     }
 
 Reset.css no arquivo index.css
-* ### CSS Modules: 
+### CSS Modules
 Solução para não haver sobreposição de código CSS entre componentes.
 
 `typescript-plugin-css-module` é um plugin TypeScript, pode ser encontrado no site da NPM
