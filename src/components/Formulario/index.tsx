@@ -34,7 +34,11 @@ export default function Formulario({ setTarefas }: Props) {
   }
 
   return (
-    <form className={style.novaTarefa} onSubmit={adicionarTarefa}>
+    <form 
+      className={style.novaTarefa} 
+      onSubmit={adicionarTarefa}
+      autoComplete="off"
+    >
       <div className={style.inputContainer}>
         <label htmlFor='tarefa'>Adicione um novo estudo</label>
         <input
