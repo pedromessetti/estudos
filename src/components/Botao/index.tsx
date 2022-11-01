@@ -1,4 +1,4 @@
-import React from 'react'
+//Estilização exclusiva do componente Botao e seus filhos
 import style from './botao.module.scss'
 
 interface Props {

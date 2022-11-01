@@ -9,7 +9,9 @@
 * [Autor](#autor)
 
 ## Descrição do Projeto
-Aplicação React onde adiciona-se uma tarefa juntamente com o tempo desejado. Ao selecionar um item da lista de tarefas, o tempo da tarefa selecionada vai  para um cronômetro, com a opção de iniciar a contagem, quando o tempo for zerado a tarefa dará como realizada.
+Aplicação React desenvolvida com template TypeScript, utilizando conceitos muito utilizados no React como DRY (Dont Repeat Yoursel) e SRP (Single Responsability Principal).
+
+onde adiciona-se uma tarefa juntamente com o tempo desejado. Ao selecionar um item da lista de tarefas, o tempo da tarefa selecionada vai  para um cronômetro, com a opção de iniciar a contagem, quando o tempo for zerado a tarefa dará como realizada.
 
 ## Funcionalidades
 
@@ -19,6 +21,9 @@ Biblioteca mais utilizada de JavaScript segundo pesquisas. Componentização (ba
 
 * #### useState
     O React é reativo, logo, a forma como ele renderiza os componentes também é reativa. O React só irá renderizar ou atualizar um componente quando avisarmos que algo mudou e fazemos isso usando o Hook `useState()`. O state é uma variável que adiciona um valor a ela, porém sempre que esse "estado da variável" muda, o componente que o tem, também muda. Muito utilizado em listas, por exemplo. O `useState` precisa receber uma variável com o `state` em si e uma função para alterar esse estado (comumemente usamos o `setState`), ao alterar o estado dessa função (setar um novo item) o React entende que o componente mudou e o atualiza. 
+
+* #### Componentização
+    Para termos uma aplicação no padrão React devemos criar uma pasta para armazenar seus componentes, isso para uma maior facilidade de acesso aos dados. Por isso existe a pasta `components` dentro de `src`
 ### TypeScript
 É uma biblioteca para tipar variáveis em JavaScript. Para criar uma aplicação React utilizando o template padrão de typescript, basta digitar no terminal `npx create-react-app nome-do-app --template typescript`
 ### Sass

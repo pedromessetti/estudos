@@ -65,7 +65,9 @@ export default function Formulario({ setTarefas }: Props) {
           required
         />
       </div>
-      <Botao type="submit" >Adicionar</Botao>
+      <Botao type="submit" >Adicionar</Botao> {
+      //Chama o componente Botão e passa automaticamente como children o texto dentro dele e define seu tipo como submit
+}
     </form>
   )
 
